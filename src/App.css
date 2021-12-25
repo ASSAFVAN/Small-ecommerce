@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid black;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.card-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 15px;
+  width: fit-content;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+button {
+  border: none;
+  background-color: darkgrey;
+  cursor: pointer;
+  border-radius: 3px;
+}
